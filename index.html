@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Super Jhon Wick</title>
+  <script src="UnityLoader.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+    }
+    #gameContainer {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameContainer"></div>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "wick.json", {
+      onProgress: UnityProgress
+    });
+  </script>
+</body>
+</html>
