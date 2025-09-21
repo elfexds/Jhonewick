@@ -1,0 +1,13 @@
+{
+"companyName": "Kiz10",
+"productName": "Super Jhon Wick",
+"dataUrl": "wick.data.unityweb",
+"wasmCodeUrl": "wick.wasm.code.unityweb",
+"wasmFrameworkUrl": "wick.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"}
+}
